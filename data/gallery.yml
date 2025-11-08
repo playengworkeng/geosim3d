@@ -1,0 +1,16 @@
+---
+title : "GeoSim3D Featured Work"
+enable: true
+subtitle: >
+        Fusing technical geospatial data with rich 3D processing
+description: Images of our Coworking Space
+galleryImage: 
+ - image: "images/gallery/geospatial_scene_lighting.png"
+   caption: "scene_lighting"
+ - image: "images/gallery/geospatial_buildings.png"
+   caption: "geospatial_buildings"
+ - image: "images/gallery/rail.png"
+   caption: "rail.png"
+ - image: "images/gallery/train.gif"
+   caption: "train.gif"
+---

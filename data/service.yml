@@ -1,0 +1,31 @@
+---
+enable: true
+title: "Why Choose us?"
+subtitle: >
+          We're simple, affordable, passionate 3D geospatial data specialists.
+services:
+  - name: "Need A Geospatial Transportation Logistics Simulation?"
+    description: >
+              Our in house tools can generate traffic on highways, trains on railroads, and planes in the sky in a rich geospatial context.
+    icon: "ti-view-grid"
+  - name: "Need a Geospatial Commercial Real Estate Visualization?"
+    description: >
+              With our raster imagery and 3D modeling and software tools we can create a geospatially accurate building, city block, or area to showcase a specific property or development project in a rich geospatial context.
+    icon: "ti-infinite"
+  - name: "Need Geospatial Training Content?"
+    description: >
+                Train your train operators, bus drivers, conductors, air traffic controllers, or other civilian/military personnel with our accurate geospatial content coupled with animations built to suit your specific training/simulation needs. 
+    icon: "ti-help-alt"
+  - name: "Need an Architecture/Engineering Visualization?"
+    description: >
+                If you're planning on a new development, transit system, we can supply you with or integrate your data from other CAD tools to create a reusable geospatial product all throughout the life of your project
+    icon: "ti-credit-card"
+  - name: "Need Real Time 3D Geospatial Operations?"
+    description: >
+                If you've got a factory, warehouse, railyard, or site-plan we can develop a custom view of your operation with real time data/assets flowing in and out of your operation.
+    icon: "ti-lock"
+  - name: "Never Worked with Geospatial 3D Data?"
+    description: >
+                If you've never worked with 3D Geospatial data and would like to start looking into geospatial simulation and visualization, we're here to help in a fun and insightful way.
+    icon: "ti-image"
+---

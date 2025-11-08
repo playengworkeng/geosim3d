@@ -1,0 +1,27 @@
+{{ $address := .Site.Params.address}}
+<section class="contact" id="contact">
+  <div class="container-fluid">
+    <!-- <div class="row no-gutters"> -->
+      <!-- <div class="col-lg-6">
+  
+        </div>
+      </div> -->
+ <section class="footer" style="padding:0 0;background-color:darkgrey;">    
+        <div class="contact-aria" style="padding:10px 0;left:50%;position:relative">
+          <h3>
+            {{ $address.address | safeHTML }}
+          </h3>
+          <ul>
+            {{ with $address.email }}<li><i class="ti-email"></i>&nbsp;<a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
+            {{ with $address.phone }}<li><i class="ti-mobile"></i>&nbsp;<a href="tel:{{ . }}">{{ . }}</a></li>{{ end }}
+          </ul>
+          <p>
+            {{ $address.openingDesc }}
+          </p>
+          <p>{{ $address.openingHours }}</p>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</section>
