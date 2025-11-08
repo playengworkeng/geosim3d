@@ -1,6 +1,11 @@
 baseURL = 'localhost:1313'
 languageCode = 'en-us'
 pagination.page = 6
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [security]
   enableInlineShortcodes = true
 
