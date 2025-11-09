@@ -61,7 +61,7 @@ pagination.page = 6
   footerDescription = "All Rights Reserved ©2025"
 
   [params.address]
-  address = "Denver Colorado"
+  address = "Denver, Colorado"
   email = "info@geosim.com"
   openingDesc = ""
   openingHours = ""
