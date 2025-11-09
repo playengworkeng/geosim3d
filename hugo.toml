@@ -2,9 +2,9 @@ baseURL = 'https://geosim3d.com'
 languageCode = 'en-us'
 pagination.page = 6
 
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+#[caches]
+#  [caches.images]
+#    dir = ':cacheDir/images'
 
 [security]
   enableInlineShortcodes = true
