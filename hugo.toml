@@ -1,4 +1,4 @@
-baseURL = 'www.geosim3d.com'
+baseURL = 'geosim3d.com'
 languageCode = 'en-us'
 pagination.page = 6
 
