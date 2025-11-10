@@ -62,7 +62,7 @@ pagination.page = 6
 
   [params.address]
   address = "Denver, Colorado"
-  email = "info@geosim.com"
+  email = "info@geosim3d.com"
   openingDesc = ""
   openingHours = ""
   phone = ""
