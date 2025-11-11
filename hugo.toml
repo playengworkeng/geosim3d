@@ -40,22 +40,22 @@ pagination.page = 6
   weight = 7
 
   # Sitemap Menu
-  [[menu.sitemap]]
-  name = "Privacy Policy"
-  url = "/privacy/"
-  weight = 1
-  [[menu.sitemap]]
-  name = "Terms"
-  url = "/terms/"
-  weight = 2
+  #[[menu.sitemap]]
+  #name = "Privacy Policy"
+  #url = "/privacy/"
+  #weight = 1
+  #[[menu.sitemap]]
+  #name = "Terms"
+  #url = "/terms/"
+  #weight = 2
 
 [params]
   # theme_overrides = "css/overrides.css"
   aboutPageURL = "blog"
   contactLink = "contact"
-  copyright = "© {year} <a href=\"https://staticmania.com/\" target=\"_blank\">StaticMania </a>"
-  fabFormURL =  "https://fabform.io/v/5AIkk3aZ0g5S"
-  googleAnalytics = "G-JZ95FEWF9K"
+  copyright = "© {year} <a href=\"https://geosim3d.com/\" target=\"_blank\">geosim3d </a>"
+  #fabFormURL =  "https://fabform.io/v/5AIkk3aZ0g5S"
+  #googleAnalytics = "G-6JF7TEF9HP"
   logo = "images/geosim_logo.png"
   footerlogo = "images/geosim_logo.png"
   footerDescription = "All Rights Reserved ©2025"
@@ -74,21 +74,21 @@ pagination.page = 6
   pinImage = "images/pin.png"
 
   # Social icons
+  #[[params.social]]
+  #icon = "ti-facebook"
+  #url = "https://www.facebook.com/"
+  #weight = 1
+  #[[params.social]]
+  #icon = "ti-twitter-alt"
+  #url = "https://twitter.com/"
+  #weight = 2
+  #[[params.social]]
+  #icon = "ti-dribbble"
+  #url = "https://dribbble.com/"
+  #weight = 3
   [[params.social]]
-  icon = "ti-facebook"
-  url = "https://www.facebook.com/"
-  weight = 1
-  [[params.social]]
-  icon = "ti-twitter-alt"
-  url = "https://twitter.com/"
-  weight = 2
-  [[params.social]]
-  icon = "ti-dribbble"
-  url = "https://dribbble.com/"
-  weight = 3
-  [[params.social]]
-  icon = "ti-instagram"
-  url = "https://www.instagram.com/"
+  icon = "ti-youtube"
+  url = "https://www.youtube.com/@geosim3d"
   weight = 4
   
   
