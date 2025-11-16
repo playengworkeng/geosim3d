@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <div class="section-title"  style="color:grey">
+        <div class="section-title" style="color:grey">
           <h2>{{ .title | safeHTML }}</h2>
           <p>
             {{.subtitle}}
@@ -15,22 +15,30 @@
 
     <div class="row">
       {{ range .galleryImage }}
-        <div class="col-md-6">
-          <div class="gallery-item">
-            <a href="{{ .image | absURL }}" data-source="{{ .image | absURL }}"
-               title="{{ .description }}" alt="{{ .caption }}">
-                <img src="{{ .image | absURL }}" alt="{{ .caption }}" >
-            </a>
-          </div>
+      <div class="col-md-6">
+        <div class="gallery-item">
+          <a href="{{ .image | absURL }}" data-source="{{ .image | absURL }}" title="{{ .description }}"
+            alt="{{ .caption }}">
+            <img src="{{ .image | absURL }}" alt="{{ .caption }}">
+          </a>
         </div>
+      </div>
       {{ end }}
-
-        <div >
-    </div>
-
-  </div>
+      <div>
+      </div>
 </section>
 
+</div>
+<div class="col-lg-12">
+  <div class="section-title" style="color:grey">
+    <p> For dynamic video content please visit our youtube channel </p>
+    <i
+        class="ti-youtube youtube-red">
+ 
+    </i>
+       <a href=https://www.youtube.com/@geosim3d>geosim3d</a>
+  </div>
+</div>
 </div>
 {{ end }}
 {{ end }}
