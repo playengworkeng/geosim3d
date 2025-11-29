@@ -61,7 +61,7 @@ pagination.page = 6
   footerDescription = "All Rights Reserved ©2025"
 
   [params.address]
-  address = "Denver, Colorado"
+  address = "1500 N Grant St #5859<br> Denver, CO, 80203, USA"
   email = "info@geosim3d.com"
   openingDesc = ""
   openingHours = ""
