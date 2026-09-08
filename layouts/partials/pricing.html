@@ -4,14 +4,15 @@
   <div class="container">
         <div class="section-title">
           <h2>{{.title}}</h2>
-             <div style="width: 50%; max-width: 800px; min-width: 250px; padding: 20px">
+          </div>
+           <div style="width: 50%; max-width: 800px; min-width: 250px; padding: 20px">
             <!-- <a href="images/geosim3dprocess.png" data-source="images/geosim3dprocess.png"
                title="None" alt="None"> -->
                 <img src="images/geosim_process.png" alt="None" >
       </div>
     
       {{ range .itemPrices}}
-      <div class="col-lg-4 col-md-6">
+      <!-- <div class="col-lg-4 col-md-6">
         <div class="pricing-wraper">
           <div class="pricing-item">
             {{if .badge}}
@@ -27,11 +28,9 @@
           </div>
           <a href="{{ .buttonTarget | absURL}}" class="btn btn-primary">Join Us</a>
         </div>
-      </div>
+      </div> -->
       {{end}}
-      
     </div>
-  </div>
 </section>
 {{end}}
 {{end}}
