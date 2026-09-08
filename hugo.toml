@@ -30,10 +30,10 @@ pagination.page = 6
   name = "Products"
   url= "#pricing"
   weight = 5
-  #[[menu.Main]]
-  #name = "FAQ"
-  #url= "#faq"
-  #weight = 6
+  [[menu.Main]]
+  name = "FAQ"
+  url= "/faq/"
+  weight = 6
   [[menu.Main]]
   name = "Contact"
   url= "/contact/"
@@ -90,5 +90,3 @@ pagination.page = 6
   icon = "ti-youtube"
   url = "https://www.youtube.com/@geosim3d"
   weight = 4
-  
-  

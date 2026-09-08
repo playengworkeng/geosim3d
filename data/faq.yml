@@ -1,21 +1,29 @@
----
-enable: false
+enable: true
 title: "Frequently Asked Questions"
 faq:
-  - question: "Q. How do I apply?"
+  - question: "Do I need special computers or VR headsets to use this?"
     answer: >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, consectetur?
-  - question: "Q. Where can I find out about funding?"
+            No. Every 3D model we build runs smoothly right inside a standard web 
+            browser. You and your team can access your custom 3D environments 
+            on any standard laptop, tablet, or smartphone without installing extra software.
+  - question: "What files or data do I need to provide to get started?"
     answer: >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, consectetur?
-  - question: "Q. How can I make a change to my application?"
+            We make this process completely hands-off for you. Depending on your project, 
+            you can simply provide us with a physical address, drone footage, 2D blueprints, 
+            or existing blueprint files. Our team handles 100% of the data preparation and conversion.
+  - question: "How long does it take to build a custom 3D digital replica?"
     answer: >
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit excepturi 
-            eaque quidem recusandae facere obcaecati optio, perferendis iusto maxime eligendi!
-  - question: "Q. What are entry requirements?"
+            Timeline depends entirely on the size and complexity of your operation. 
+            A single facility or real estate development can typically be completed in 
+            a few weeks, while complex regional transit networks take longer. We provide a 
+            clear timeline during our initial concept call.
+  - question: "Can we connect live data or tracking systems to our 3D model?"
     answer: >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, consectetur?
-  - question: "Q. How do I get a reference?"
+            Yes. We specialize in live operational command centers. We can integrate 
+            your existing GPS trackers, sensor data, or facility inventory feeds directly 
+            into your 3D model so you can watch your operations move in real time.
+  - question: "How are updates handled if our physical facility changes?"
     answer: >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, consectetur?
----
+            Because we provide an end-to-end service, we don't just build your model and walk 
+            away. We offer ongoing maintenance packages to seamlessly update your 3D 
+            environment whenever your real-world layout, routes, or equipment change.

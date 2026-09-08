@@ -1,8 +1,13 @@
 ---
 enable: true
-title: "End To End Creation of Your Digital Twin"
-subtitle: 
- #
+title: "Bring Your Physical Locations Into the 3D World"
+subtitle: >
+          We turn your facilities, blueprints, and supply chains into interactive 
+          3D tools and training environments—completely done for you.
+          
+          • Train operators and drivers safely without real-world risk
+          • Monitor live asset movement and inventory on one screen
+          • Showcase upcoming real estate projects to win investors
 buttonTarget: "contact"
 itemPrices:
   # - packcage: "Daily"

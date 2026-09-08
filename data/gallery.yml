@@ -1,8 +1,7 @@
 ---
 title : "GeoSim3D Recent Projects"
 enable: true
-subtitle: >
-        Fusing technical geospatial data with rich 3D processing
+subtitle: 
 description: Images of our Coworking Space
 galleryImage: 
  - image: "images/gallery/geospatial_scene_lighting.png"
