@@ -32,7 +32,7 @@ pagination.page = 6
   weight = 5
   [[menu.Main]]
   name = "FAQ"
-  url= "/faq/"
+  url= "#faq"
   weight = 6
   [[menu.Main]]
   name = "Contact"
