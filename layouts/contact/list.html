@@ -54,17 +54,20 @@
         </ul>
       </div>
 
-      <!-- COLUMN 2: Native HTML Form (Connected to Formspree) -->
+      <!-- COLUMN 2: Native HTML Form (Connected to Web3Forms) -->
       <div style="flex: 1.3; min-width: 320px; background: #ffffff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
         <h3 style="font-size: 1.6rem; color: #222; margin-top: 0; margin-bottom: 25px; border-bottom: 2px solid #ddd; padding-bottom: 10px;">
           Project Inquiry Form
         </h3>
         
-        <!-- REPLACE THE URL BELOW WITH YOUR ACTUAL FORMSPREE ENDPOINT URL -->
-        <form action="https://formspree.io/f/xwlkrdke" method="POST" style="display: flex; flex-direction: column; gap: 20px;">
+        <!-- Web3Forms API Target Endpoint -->
+        <form action="https://api.web3forms.com/submit" method="POST" style="display: flex; flex-direction: column; gap: 20px;">
           
-          <!-- Formspree Custom Redirect Configuration -->
-          <input type="hidden" name="_next" value="https://geosim3d.com">
+          <!-- STEP 1: PLACE YOUR UNIQUE ACCESS KEY VALUE STRING HERE -->
+          <input type="hidden" name="access_key" value="dde1bb28-7191-44e1-bf88-74686ef9a24f">
+          
+          <!-- STEP 2: Custom Free Redirect Configuration Map -->
+          <input type="hidden" name="redirect" value="https://geosim3d.com/contact/thank-you/">
           
           <div>
             <label style="display: block; margin-bottom: 8px; font-weight: bold; color: #444;">Your Name</label>
