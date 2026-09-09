@@ -1,13 +1,13 @@
 ---
 enable: true
-title: "Bring Your Physical Locations Into the 3D World"
+title: "Bring Your Complex Transit Infrastructure Into the 3D World"
 subtitle: >
-          We turn your facilities, blueprints, and supply chains into interactive 
-          3D tools and training environments—completely done for you.
+          We transform your physical corridors, track profiles, and airfield layouts into 
+          interactive, fully customized 3D software environments—completely done for you.
           
-          • Train operators and drivers safely without real-world risk
-          • Monitor live asset movement and inventory on one screen
-          • Showcase upcoming real estate projects to win investors
+          • Train rail crews and equipment operators safely without real-world liability
+          • Monitor live vehicle locations and yard terminal flows on a single 3D screen
+          • Replace static maps with exact, localized 3D digital replicas built to your data
 buttonTarget: "contact"
 itemPrices:
   # - packcage: "Daily"

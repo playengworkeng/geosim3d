@@ -1,47 +1,48 @@
 enable: true
-title: "Bring Your Physical Locations Into the 3D World"
+title: "Interactive 3D Digital Twins for Transit, Rail, and Airports"
 subtitle: >
-          We turn your facilities, blueprints, and supply chains into interactive 
-          3D tools and training environments—completely done for you. Our team 
-          handles 100% of the setup, so no technical experience is required.
+          We transform your complex routes, terminal data, and blueprints into custom, 
+          live-action 3D software simulations—completely done for you. Our team 
+          handles 100% of the data development, so no technical experience is required.
 services:
-  - name: "Live Traffic & Fleet Tracking"
+  - name: "Rail Operator & Crew Training"
     description: >
-              See your entire supply chain move in real time. We build live, 3D animated 
-              maps that show exactly where your trucks, trains, or planes are right now.
+              Train your drivers, crews, and operators safely. We build hyper-accurate, 
+              interactive 3D replicas of your exact rail routes and control panels so 
+              your team can practice without operational risk.
+    icon: "ti-direction-alt" # Updated icon suggestion for navigation/routes
+
+  - name: "Airport & Airfield Digital Twins"
+    description: >
+              Optimize ground traffic and logistics. We turn layout plans into interactive 
+              3D airfield models to simulate baggage flows, catering vehicles, and 
+              gate allocations without disrupting live traffic.
+    icon: "ti-panel" # Updated icon suggestion for a dashboard/command feel
+
+  - name: "Live Fleet & Asset Tracking"
+    description: >
+              See your entire transit or rail network move in real time. We build live 
+              3D asset maps that stream data to show exactly where your vehicles and 
+              cargo are right now.
     icon: "ti-view-grid"
 
-  - name: "3D Property & City Showcases"
+  - name: "Industrial & Railyard Command Centers"
     description: >
-              Show off real estate developments before they are built. We turn basic 
-              blueprints and satellite images into interactive, video-game-like 3D 
-              neighborhoods to impress investors.
-    icon: "ti-infinite"
-
-  - name: "Virtual Workforce Training"
-    description: >
-              Train your drivers, operators, and staff safely online. We build perfect, 
-              animated 3D replicas of your real-world routes so your team can practice 
-              without risk.
-    icon: "ti-help-alt"
-
-  - name: "Interactive Project Blueprints"
-    description: >
-              Keep engineering projects on track. We take your blueprint files and turn 
-              them into a single, shared 3D model that your team can use from day one 
-              through final maintenance.
-    icon: "ti-credit-card"
-
-  - name: "Live 3D Command Centers"
-    description: >
-              Watch your facilities run from a single screen. We create live 3D models 
-              of your factory, warehouse, or railyard that show asset and inventory 
-              movement in real time.
+              Watch your complex facilities run from a single screen. We create active 
+              3D replicas of railyards, depots, and warehouses to visualize equipment 
+              movement and clear bottlenecks.
     icon: "ti-lock"
 
-  - name: "End-to-End Service Support"
+  - name: "Interactive Engineering Blueprints"
     description: >
-              Don't know anything about 3D data or mapping? You don't have to. We handle 
-              the data collection, 3D design, and setup, delivering a ready-to-use tool 
-              for your business.
+              Keep infrastructure projects on schedule. We take your messy track, terminal, 
+              and civil engineering data and turn them into a single, shared 3D model 
+              your team can use throughout the project lifecycle.
+    icon: "ti-layout" # Updated icon suggestion for layout/design files
+
+  - name: "End-to-End Solution Development"
+    description: >
+              Don't have an in-house 3D or GIS tech team? You don't need one. We handle 
+              all data ingestion, 3D environment building, and software delivery, handing 
+              you a ready-to-use tool.
     icon: "ti-image"
