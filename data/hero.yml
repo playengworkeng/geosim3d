@@ -13,20 +13,13 @@ heroVideo: "https://youtube.com"
 herosVideoDesc: "<span>See <strong>Our Live Simulations</strong> in 30 Seconds</span>"
 ---
 
-<!-- 
-==========================================
-2. THIS IS YOUR MARKDOWN BODY (BOTTOM)
-   Paste the table here, right below the closing ---
-==========================================
--->
 
-### The GeoSim3D Difference
-Why massive enterprise software and standard 3D design tools fall short for transit operations.
-
-| Capability | Enterprise GIS Platforms | Standard 3D Design Studios | GeoSim3D Solution |
-| :--- | :--- | :--- | :--- |
-| **Setup & Modeling Labor** | You must build everything yourself. | Manual, slow, and highly expensive. | **100% Done For You** by our team. |
-| **Infrastructure Data** | Hard to import local CAD profiles. | Visual-only; cannot parse spatial data. | **Millimeter-accurate track data ingestion.** |
-| **Operational Security** | Locked into complex cloud servers. | Files hosted on external game servers. | **Standalone local apps that run safely offline.** |
-| **Live Infrastructure Data** | Requires a dedicated team of scientists. | Entirely static; zero live tracking. | **Streams active vehicle and terminal flows live.** |
-| **Learning Curve** | Months of grueling software training. | No operational utility; marketing only. | **Zero learning curve; open it and start training.** |
+- name: "The GeoSim3D Difference"
+  description: >
+            Unlike complex enterprise GIS platforms that make you build everything yourself, 
+            or standard 3D design studios that only deliver static marketing pictures, 
+            GeoSim3D provides a 100% done-for-you standalone software application. 
+            We ingest your exact, millimeter-accurate track or airfield layout data, 
+            connect live operational asset tracking, and build secure environments 
+            that run safely offline—with zero staff learning curve required.
+  icon: "ti-star"
