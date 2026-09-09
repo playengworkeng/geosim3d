@@ -46,3 +46,13 @@ services:
               all data ingestion, 3D environment building, and software delivery, handing 
               you a ready-to-use tool.
     icon: "ti-image"
+
+  - name: "The GeoSim3D Difference"
+    description: >
+              Unlike complex enterprise GIS platforms that make you build everything yourself, 
+              or standard 3D design studios that only deliver static marketing pictures, 
+              GeoSim3D provides a 100% done-for-you standalone software application. 
+              We ingest your exact, millimeter-accurate track or airfield layout data, 
+              connect live operational asset tracking, and build secure environments 
+              that run safely offline—with zero staff learning curve required.
+    icon: "ti-star"
