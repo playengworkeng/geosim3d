@@ -121,3 +121,88 @@
     }
   }
 }
+
+// "Try the Live Demo" button (hero)
+.hero-demo {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  &__note {
+    color: rgba($white, 0.75);
+    font-family: $secondary-font;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+  }
+}
+
+.btn-demo {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 30px 10px 10px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, $primary-color 0%, #00b4a6 100%);
+  color: $white;
+  font-family: $primary-font;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  box-shadow: 0 10px 30px rgba($primary-color, 0.45);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  &:hover,
+  &:focus {
+    color: $white;
+    text-decoration: none;
+    transform: translateY(-3px);
+    box-shadow: 0 16px 40px rgba($primary-color, 0.6);
+  }
+
+  &:focus-visible {
+    outline: 3px solid $white;
+    outline-offset: 4px;
+  }
+
+  &__icon {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: $white;
+    color: $primary-color;
+    flex: none;
+
+    svg {
+      margin-left: 3px; // optically centre the play triangle
+    }
+
+    // soft pulsing ring to draw the eye
+    &::after {
+      content: "";
+      position: absolute;
+      inset: -6px;
+      border-radius: 50%;
+      border: 2px solid rgba($white, 0.7);
+      animation: demo-pulse 2s ease-out infinite;
+    }
+  }
+
+  @include mobile {
+    font-size: 15px;
+    padding-right: 22px;
+  }
+}
+
+@keyframes demo-pulse {
+  from { transform: scale(0.9); opacity: 1; }
+  to   { transform: scale(1.35); opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-demo__icon::after { animation: none; }
+}
