@@ -1,19 +1,15 @@
 {{define "main"}}
-<head>
-  <!-- Global site tag (gtag.js) - Google Ads -->
-  <script async src="https://googletagmanager.com"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'AW-17202362045');
-  </script>
-
-  <!-- Event snippet for Submit lead form conversion page (Fires ONLY here!) -->
-  <script>
-    gtag('event', 'conversion', {'send_to': 'AW-17202362045/NTISCM2E3OobEL3t3IpA'});
-  </script>
-</head>
+<script>
+  // Count the lead only when the visitor actually submitted the contact form
+  // (flag set by its onsubmit), so direct visits and refreshes don't count.
+  (function(){
+    var lead=false;
+    try{ lead=sessionStorage.getItem('gs3d_lead')==='1'; sessionStorage.removeItem('gs3d_lead'); }catch(e){}
+    if(!lead || typeof gtag!=='function') return;
+    gtag('event','conversion',{'send_to':'AW-17202362045/NTISCM2E3OobEL3t3IpA'});
+    gtag('event','generate_lead',{'form':'contact'});
+  })();
+</script>
 
 <section class="thank-you-section" style="padding: 100px 0; text-align: center; background-color: #f9f9f9; font-family: sans-serif; min-height: 50vh; display: flex; align-items: center;">
   <div class="container" style="max-width: 600px; margin: 0 auto; padding: 0 20px;">

@@ -4,26 +4,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geosim3D</title>
     <meta name="description" content="Affordable Geospatial 3D Simulation and Visualization Scenes and Models for Commericial, Architectural, Engineering, and Transportation Industries">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17202362045">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-17202362045');
-</script>    
-    
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6JF7TEF9HP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-6JF7TEF9HP');
-</script>
+    {{ if .Params.noindex }}<meta name="robots" content="noindex, nofollow">{{ end }}
+    <!-- Google tag (gtag.js): one loader for GA4 + Google Ads -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6JF7TEF9HP"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6JF7TEF9HP');
+      gtag('config', 'AW-17202362045');
+    </script>
     <meta charset="utf-8" />
     <title>{{.Title}}</title>
     {{ "<!--mobile responsive meta-->" | safeHTML }}

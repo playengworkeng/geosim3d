@@ -363,3 +363,13 @@ $(window).on("scroll", function () {
    google.maps.event.addDomListener(window, "load", initialize);
  }
  
+// Analytics: count "Try/Launch the Live Demo" clicks (opens in a new tab, so
+// the page stays put and the hit goes out normally).
+document.addEventListener("click", function (e) {
+  var a = e.target.closest && e.target.closest("a.btn-demo");
+  if (!a || typeof gtag !== "function") return;
+  gtag("event", "demo_click", {
+    location: a.getAttribute("data-demo-location") || "unknown",
+    link_url: a.href,
+  });
+});

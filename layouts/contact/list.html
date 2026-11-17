@@ -1,14 +1,4 @@
 {{define "main"}}
-<head>
-  <!-- Global site tag (gtag.js) - Google Ads -->
-  <script async src="https://googletagmanager.com"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'AW-17202362045');
-  </script>
-</head>
 
 {{ $address := .Site.Params.address }}
 
@@ -61,7 +51,7 @@
         </h3>
         
         <!-- Web3Forms API Target Endpoint -->
-        <form action="https://api.web3forms.com/submit" method="POST" style="display: flex; flex-direction: column; gap: 20px;">
+        <form action="https://api.web3forms.com/submit" method="POST" onsubmit="try{sessionStorage.setItem('gs3d_lead','1')}catch(e){}" style="display: flex; flex-direction: column; gap: 20px;">
           
           <!-- STEP 1: PLACE YOUR UNIQUE ACCESS KEY VALUE STRING HERE -->
           <input type="hidden" name="access_key" value="dde1bb28-7191-44e1-bf88-74686ef9a24f">
