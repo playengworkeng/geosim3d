@@ -31,6 +31,10 @@ pagination.page = 6
   url= "#pricing"
   weight = 5
   [[menu.Main]]
+  name = "Demos"
+  url= "#demo"
+  weight = 6
+  [[menu.Main]]
   name = "FAQ"
   url= "#faq"
   weight = 6

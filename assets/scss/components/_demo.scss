@@ -1,86 +1,26 @@
-// Live demo strip in the Products section (layouts/partials/demo.html).
-// The button reuses .btn-demo from _hero.scss.
-.demo-strip {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 28px;
-  margin-top: 50px;
+// Live demo strip in the Products section (layouts/partials/demo.html):
+// a band holding the launch button. The button reuses .btn-demo from
+// _hero.scss.
+// The wrapper carries the #demo anchor; its top padding keeps the band clear
+// of the fixed header when the "Demos" menu link scrolls here.
+.demo-strip-wrap {
+  padding-top: 60px;
 
   @include mobile {
-    gap: 20px;
-    margin-top: 30px;
-  }
-
-  &__preview {
-    position: relative;
-    display: block;
-    width: 100%;
-    border-radius: 14px;
-    overflow: hidden;
-    box-shadow: 0 20px 50px rgba(14, 30, 60, 0.25);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-    img {
-      display: block;
-      width: 100%;
-      height: auto;
-      // A wide strip: keep the top, where the operator panel is.
-      aspect-ratio: 3 / 1;
-      object-fit: cover;
-      object-position: top left;
-
-      @include tablet {
-        aspect-ratio: 16 / 9;
-      }
-    }
-
-    &:hover,
-    &:focus {
-      transform: translateY(-4px);
-      box-shadow: 0 26px 60px rgba(14, 30, 60, 0.33);
-    }
-
-    &:hover .demo-strip__play,
-    &:focus .demo-strip__play {
-      transform: translate(-50%, -50%) scale(1.08);
-    }
-
-    &:focus-visible {
-      outline: 3px solid $primary-color;
-      outline-offset: 4px;
-    }
-  }
-
-  &__play {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    display: grid;
-    place-items: center;
-    width: 76px;
-    height: 76px;
-    border-radius: 50%;
-    background: rgba($white, 0.92);
-    color: $primary-color;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    transform: translate(-50%, -50%);
-    transition: transform 0.25s ease;
-
-    svg {
-      margin-left: 4px; // optically centre the play triangle
-    }
-
-    @include mobile {
-      width: 58px;
-      height: 58px;
-    }
+    padding-top: 30px;
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .demo-strip__preview,
-  .demo-strip__play {
-    transition: none;
+.demo-strip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 36px 20px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #0b1a2e 0%, #10304f 100%);
+  box-shadow: 0 20px 50px rgba(14, 30, 60, 0.2);
+
+  @include mobile {
+    padding: 26px 16px;
   }
 }

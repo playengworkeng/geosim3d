@@ -1,7 +1,7 @@
 # Live demo strip in the Products section (layouts/partials/pricing.html):
-# a screenshot strip and a launch button. The link is demoURL in hero.yml;
-# the strip hides itself if that's commented out (or if enable is false).
+# just a launch button, no screenshot, so the demo stays a surprise. The
+# "Demos" link in the top menu (hugo.toml) scrolls here. The link is demoURL
+# in hero.yml; the strip hides itself if that's commented out (or if enable
+# is false).
 enable: true
-image: "images/demo/rail-yard-demo.jpg"
-imageAlt: "GeoSim3D rail yard demo: a 3D rail yard with an operator panel showing seven colored train lines"
 buttonText: "Launch the Live Demo"
