@@ -1,0 +1,21 @@
+# "Live demo" section on the home page, right after the hero.
+# The button links to demoURL in hero.yml; the section hides itself if that's
+# commented out (or if enable is false).
+enable: true
+eyebrow: "Live Demo"
+title: "See a Rail Yard Simulation in Action"
+subtitle: >
+          This is a working 3D rail yard, built the same way we build projects for our
+          clients. It runs right in your browser, with nothing to install.
+features:
+  - "Seven trains running live on their own tracks"
+  - "An operator control panel with a live track map"
+  - "Route any train onto another track with a switch"
+  - "Fly around the yard in 3D: orbit, pan and zoom"
+footnote: >
+          Trains in the demo are simulated. For your project, we build it from your own
+          yard data and can connect it to live operations.
+image: "images/demo/rail-yard-demo.jpg"
+imageAlt: "GeoSim3D rail yard demo: a 3D rail yard with an operator panel showing seven colored train lines"
+buttonText: "Launch the Demo"
+note: "Desktop recommended"
