@@ -130,7 +130,7 @@ $(document).ready(function () {
   });
   // Magnific Gallery
   $(".gallery,.simple_gallery").magnificPopup({
-    delegate: "a",
+    delegate: "a:not(.btn-demo):not(.demo-strip__preview)", // demo links open the demo
     type: "image",
     closeOnContentClick: false,
     closeBtnInside: false,
