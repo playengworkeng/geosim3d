@@ -5,12 +5,19 @@
         <div class="section-title">
           <h2>{{.title}}</h2>
            </div>
-           <div class="gallery-item">
-            <a href="images/geosim_process.png" data-source="images/geosim_process.png"
-               title="None" alt="None">
-                <img src="images/geosim_process.png" alt="None">
-                </a>
-                </div>
+           {{ with .steps }}
+           <div class="process-steps">
+             {{ range . }}
+             <figure class="process-step">
+               <h3 class="process-step__title">{{ .title }}</h3>
+               <a href="{{ .image | absURL }}" class="process-step__image" title="{{ .title }}" data-source="{{ .image | absURL }}">
+                 <img src="{{ .image | absURL }}" alt="{{ .alt }}" loading="lazy" decoding="async">
+               </a>
+               <figcaption class="process-step__caption">{{ .caption }}</figcaption>
+             </figure>
+             {{ end }}
+           </div>
+           {{ end }}
            {{ partial "demo.html" $ }}
       <!-- {{ range .itemPrices}} -->
       <!-- <div class="col-lg-4 col-md-6">

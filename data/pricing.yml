@@ -9,6 +9,20 @@ subtitle: >
           • Monitor live vehicle locations and yard terminal flows on a single 3D screen
           • Replace static maps with exact, localized 3D digital replicas built to your data
 buttonTarget: "contact"
+# The three-step process strip (layouts/partials/pricing.html).
+steps:
+  - title: "Your Blueprint"
+    caption: "Flat Site Plan"
+    image: "images/process/process-blueprint.jpg"
+    alt: "Flat site plan of an airport and its approach roads"
+  - title: "Our 3D Model"
+    caption: "Detailed 3D Structure"
+    image: "images/process/process-model.jpg"
+    alt: "Detailed 3D model of the same airport from above"
+  - title: "Full 3D Environment"
+    caption: "With Relevant Infrastructure"
+    image: "images/process/process-environment.jpg"
+    alt: "The finished 3D environment with the terminal and surrounding infrastructure"
 itemPrices:
   # - packcage: "Daily"
   #   description: >

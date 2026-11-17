@@ -1,6 +1,57 @@
-// Live demo strip in the Products section (layouts/partials/demo.html):
-// a band holding the launch button. The button reuses .btn-demo from
-// _hero.scss.
+// Products section (layouts/partials/pricing.html): the three-step process
+// strip and the live demo band (layouts/partials/demo.html).
+
+// Three equal columns, images cropped to the same shape so their edges line up.
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+}
+
+.process-step {
+  margin: 0;
+  text-align: center;
+
+  &__title {
+    margin-bottom: 14px;
+    color: $text-color-dark;
+    font-size: 22px;
+  }
+
+  &__image {
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 12px 30px rgba(14, 30, 60, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+    }
+
+    &:hover,
+    &:focus {
+      transform: translateY(-4px);
+      box-shadow: 0 18px 40px rgba(14, 30, 60, 0.22);
+    }
+  }
+
+  &__caption {
+    margin-top: 14px;
+    color: $text-color;
+    font-family: $secondary-font;
+    font-size: 16px;
+  }
+}
+
 // The wrapper carries the #demo anchor; its top padding keeps the band clear
 // of the fixed header when the "Demos" menu link scrolls here.
 .demo-strip-wrap {
@@ -11,16 +62,23 @@
   }
 }
 
+// Light band in the site's colours, holding only the launch button.
 .demo-strip {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 36px 20px;
   border-radius: 14px;
-  background: linear-gradient(135deg, #0b1a2e 0%, #10304f 100%);
-  box-shadow: 0 20px 50px rgba(14, 30, 60, 0.2);
+  background: $bg-color;
+  border: 1px solid rgba($primary-color, 0.12);
 
   @include mobile {
     padding: 26px 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .process-step__image {
+    transition: none;
   }
 }
