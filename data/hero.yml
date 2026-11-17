@@ -11,9 +11,8 @@ subtitle: >
 heroBGimg: "images/hero/geosim3d_background.png"
 heroVideo: "https://youtube.com"
 herosVideoDesc: "<span>See <strong>Our Live Simulations</strong> in 30 Seconds</span>"
-# "Try the live demo" button in the hero. Hidden until launch:
-# uncomment demoURL to show it.
-# demoURL: "https://playengworkeng.github.io/geosimdemos-live/"
+# "Try the live demo" button in the hero. Comment out demoURL to hide it.
+demoURL: "https://demo.geosim3d.com/"
 demoText: "Try the Live Demo"
 demoNote: "Interactive rail yard · runs in your browser · desktop recommended"
 ---
