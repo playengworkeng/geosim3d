@@ -2,10 +2,10 @@
 # ==========================================
 # 1. THIS IS YOUR YAML FRONT MATTER (TOP)
 # ==========================================
-title: "<h1>Your Transit & Rail Operations,<br>Built in Interactive 3D</h1>"
+title: "<h1>Rail & Airport Operations,<br>Built in Interactive 3D</h1>"
 enable: true
 subtitle: >
-          We turn your complex transportation networks, facility layouts, and blueprints 
+          We turn your rail networks, airfields, facility layouts, and blueprints 
           into custom 3D digital replicas and operator training environments—completely 
           done for you. No technical experience required.
 heroBGimg: "images/hero/geosim3d_background.png"
