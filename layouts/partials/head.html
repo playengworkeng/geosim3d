@@ -2,8 +2,17 @@
 
      <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geosim3D</title>
-    <meta name="description" content="Affordable Geospatial 3D Simulation and Visualization Scenes and Models for Commericial, Architectural, Engineering, and Transportation Industries">
+    {{- $tagline := "Interactive 3D Rail and Transit Simulation" -}}
+    {{- $desc := "Interactive 3D simulations of rail yards, transit lines, and airports, built from your own track plans and survey data and running in a web browser. Try the live rail yard demo." -}}
+    {{- $title := cond .IsHome (printf "GeoSim3D | %s" $tagline) (printf "%s | GeoSim3D" .Title) }}
+    <title>{{ $title }}</title>
+    <meta name="description" content="{{ $desc }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="GeoSim3D">
+    <meta property="og:title" content="{{ $title }}">
+    <meta property="og:description" content="{{ $desc }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:image" content="{{ "images/work/rail-ops.jpg" | absURL }}">
     {{ if .Params.noindex }}<meta name="robots" content="noindex, nofollow">{{ end }}
     <!-- Google tag (gtag.js): one loader for GA4 + Google Ads -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6JF7TEF9HP"></script>
@@ -15,7 +24,6 @@
       gtag('config', 'AW-17202362045');
     </script>
     <meta charset="utf-8" />
-    <title>{{.Title}}</title>
     {{ "<!--mobile responsive meta-->" | safeHTML }}
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta

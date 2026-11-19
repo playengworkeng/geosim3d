@@ -1,11 +1,11 @@
 ---
-title: "Geosim3D Privacy & Policy "
+title: "Privacy Policy"
 date: 2022-01-08T12:51:52+06:00
 subtitle: >
           Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta.
 ---
 ## Privacy Policy
-This privacy policy ("policy") will help you understand how Geosim3D ("us", "we",
+This privacy policy ("policy") will help you understand how GeoSim3D ("us", "we",
 "our") uses and protects the data you provide to us when you visit and use geosim3d.com
 ("blog", "service").
 We reserve the right to change this policy at any given time, of which you will be
@@ -27,8 +27,8 @@ research.
 • To customize our blog according to your online behavior and personal
 preferences.
 Safeguarding and Securing the Data
-Geosim3D is committed to securing your data and keeping it confidential.
-Geosim3D has done all in its power to prevent data theft, unauthorized access,
+GeoSim3D is committed to securing your data and keeping it confidential.
+GeoSim3D has done all in its power to prevent data theft, unauthorized access,
 and disclosure by implementing the latest technologies and software, which help us
 safeguard all the information we collect online.
 Our Cookie Policy
@@ -57,7 +57,7 @@ When you are filling the forms on the blog, make sure to check if there is a box
 you can leave unchecked, if you don't want to disclose your personal information.
 If you have already agreed to share your information with us, feel free to contact us via
 email and we will be more than happy to change this for you.
-Geosim3D will not lease, sell or distribute your personal information to any third
+GeoSim3D will not lease, sell or distribute your personal information to any third
 parties, unless we have your permission. We might do so if the law forces us. Your
 personal information will be used when we need to send you promotional materials if
 you agree to this privacy policy.
