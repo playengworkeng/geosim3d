@@ -1,27 +1,16 @@
 {{ $address := .Site.Params.address}}
-<section class="contact" id="contact">
-  <div class="container-fluid">
-    <!-- <div class="row no-gutters"> -->
-      <!-- <div class="col-lg-6">
-  
-        </div>
-      </div> -->
- <section class="footer" style="padding:0 0;background-color:darkgrey;">    
-        <div class="contact-aria" style="max-width:50%;left:50%;position:relative">
-          <h3>
-            {{ $address.address | safeHTML }}
-          </h3>
-          <ul>
-            {{ with $address.email }}<li><i class="ti-email"></i>&nbsp;<a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
-            {{ with $address.phone }}<li><i class="ti-mobile"></i>&nbsp;<a href="tel:{{ . }}">{{ . }}</a></li>{{ end }}
-          </ul>
-          <p>
-            {{ $address.openingDesc }}
-          </p>
-          <p>{{ $address.openingHours }}</p>
-        </div>
-      </section>
-
+<section class="contact" id="contact" style="background-color:#22212c;padding:60px 0;">
+  <div class="container">
+    <div class="contact-aria" style="text-align:center;max-width:none;">
+      <h3>
+        {{ $address.address | safeHTML }}
+      </h3>
+      <ul style="padding:0;list-style:none;">
+        {{ with $address.email }}<li><i class="ti-email"></i>&nbsp;<a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
+        {{ with $address.phone }}<li><i class="ti-mobile"></i>&nbsp;<a href="tel:{{ . }}">{{ . }}</a></li>{{ end }}
+      </ul>
+      {{ with $address.openingDesc }}<p>{{ . }}</p>{{ end }}
+      {{ with $address.openingHours }}<p>{{ . }}</p>{{ end }}
     </div>
   </div>
 </section>

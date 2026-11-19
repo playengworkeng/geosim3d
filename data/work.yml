@@ -1,0 +1,44 @@
+# "Our Work" section (layouts/partials/work.html): replaces the old Gallery
+# ("Recent Projects") and Products (site-plan steps strip) sections.
+# The featured card is the live demo; the demo link is demoURL in hero.yml.
+# Tiles take either an image or a video (mp4, muted autoplay loop, with poster).
+enable: true
+title: "See It Running"
+subtitle: >
+          Everything here is a working 3D environment, not a rendering.
+          Start with the live rail yard, then see what else we've built.
+featured:
+  kicker: "The product"
+  title: "A rail yard you can run, right in your browser"
+  description: >
+          Pick a train, order a switch move, and watch it take the crossover.
+          This is the kind of tool we build for your yard, corridor, or airfield,
+          from your own track plans and survey data.
+  image: "images/work/rail-ops.jpg"
+  alt: "3D rail yard with passenger trains, signal gantries and the city skyline behind"
+  buttonText: "Launch the Live Demo"
+  note: "No sign-up · runs in your browser · desktop recommended"
+
+items:
+  - title: "Light Rail Corridor"
+    description: >
+            A commuter and light rail line built from real map data, with trains
+            running through it from day into night.
+    video: "videos/light-rail-corridor.mp4"
+    poster: "images/work/light-rail-poster.jpg"
+    alt: "Light rail train running along a corridor at dusk"
+
+  - title: "Transit Line Simulation"
+    description: >
+            Trains moving on a modeled transit corridor, for route familiarization,
+            run-throughs, and operator training.
+    video: "videos/rail-yard.mp4"
+    poster: "images/work/rail-yard-poster.jpg"
+    alt: "Light rail vehicle moving along a modeled transit line"
+
+  - title: "Denver International Airport"
+    description: >
+            The terminal and airfield in 3D, as a base for ground traffic, gate,
+            and service vehicle planning.
+    image: "images/work/denver-airport.jpg"
+    alt: "3D model of Denver International Airport's terminal and surrounding airfield"

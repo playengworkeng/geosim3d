@@ -1,58 +1,37 @@
+# Services (layouts/partials/service.html): each card starts from something
+# the live demo already does, then says what it becomes with a client's data.
+# icon: one of switch | training | console | airport (inline SVGs in the partial).
 enable: true
-title: "Interactive 3D Digital Twins for Transit, Rail, and Airports"
+title: "From the Demo to Your Operation"
 subtitle: >
-          We transform your complex routes, terminal data, and blueprints into custom, 
-          live-action 3D software simulations—completely done for you. Our team 
-          handles 100% of the data development, so no technical experience is required.
+          The rail yard demo runs on the same engine we use for client work.
+          Here's what it becomes with your data.
+demoLinkText: "Try the demo yourself"
 services:
-  - name: "Rail Operator & Crew Training"
-    description: >
-              Train your drivers, crews, and operators safely. We build hyper-accurate, 
-              interactive 3D replicas of your exact rail routes and control panels so 
-              your team can practice without operational risk.
-    icon: "ti-direction-alt" # Updated icon suggestion for navigation/routes
+  - name: "Your Yard, in 3D"
+    icon: "switch"
+    demo: "A full yard with tracks, crossovers, and signal gantries."
+    yours: >
+              Your actual layout, switches, and equipment, built from your
+              track plans, CAD drawings, and survey data.
 
-  - name: "Airport & Airfield Digital Twins"
-    description: >
-              Optimize ground traffic and logistics. We turn layout plans into interactive 
-              3D airfield models to simulate baggage flows, catering vehicles, and 
-              gate allocations without disrupting live traffic.
-    icon: "ti-panel" # Updated icon suggestion for a dashboard/command feel
+  - name: "Switching & Crew Training"
+    icon: "training"
+    demo: "Select a train, route it through a switch, and watch it take the crossover."
+    yours: >
+              Switching moves, signal aspects, and route familiarization that crews
+              can practice in a browser, without tying up real equipment.
 
-  - name: "Live Fleet & Asset Tracking"
-    description: >
-              See your entire transit or rail network move in real time. We build live 
-              3D asset maps that stream data to show exactly where your vehicles and 
-              cargo are right now.
-    icon: "ti-view-grid"
+  - name: "Live Yard Control"
+    icon: "console"
+    demo: "A Yard Control console tracking every train in the yard."
+    yours: >
+              Your GPS, AEI, or dispatch feeds connected, so the 3D yard shows
+              where equipment really is, right now.
 
-  - name: "Industrial & Railyard Command Centers"
-    description: >
-              Watch your complex facilities run from a single screen. We create active 
-              3D replicas of railyards, depots, and warehouses to visualize equipment 
-              movement and clear bottlenecks.
-    icon: "ti-lock"
-
-  - name: "Interactive Engineering Blueprints"
-    description: >
-              Keep infrastructure projects on schedule. We take your messy track, terminal, 
-              and civil engineering data and turn them into a single, shared 3D model 
-              your team can use throughout the project lifecycle.
-    icon: "ti-layout" # Updated icon suggestion for layout/design files
-
-  - name: "End-to-End Solution Development"
-    description: >
-              Don't have an in-house 3D or GIS tech team? You don't need one. We handle 
-              all data ingestion, 3D environment building, and software delivery, handing 
-              you a ready-to-use tool.
-    icon: "ti-image"
-
-  - name: "The GeoSim3D Difference"
-    description: >
-              Unlike complex enterprise GIS platforms that make you build everything yourself, 
-              or standard 3D design studios that only deliver static marketing pictures, 
-              GeoSim3D provides a 100% done-for-you standalone software application. 
-              We ingest your exact, millimeter-accurate track or airfield layout data, 
-              connect live operational asset tracking, and build secure environments 
-              that run safely offline—with zero staff learning curve required.
-    icon: "ti-star"
+  - name: "Transit & Airports"
+    icon: "airport"
+    demo: "One rail yard, running live in your browser."
+    yours: >
+              The same engine for light rail corridors, transit depots, and airfields:
+              routes, gates, and service vehicle flows.

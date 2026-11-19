@@ -38,7 +38,7 @@ $(document).ready(function () {
 
   // Service Item Match Height
   $(".service-item").matchHeight({
-    byRow: 0,
+    byRow: true,
   });
 
   // .blog-content Match Height
@@ -366,7 +366,7 @@ $(window).on("scroll", function () {
 // Analytics: count "Try/Launch the Live Demo" clicks (opens in a new tab, so
 // the page stays put and the hit goes out normally).
 document.addEventListener("click", function (e) {
-  var a = e.target.closest && e.target.closest("a.btn-demo");
+  var a = e.target.closest && e.target.closest("a.btn-demo, a.btn-demo-text");
   if (!a || typeof gtag !== "function") return;
   gtag("event", "demo_click", {
     location: a.getAttribute("data-demo-location") || "unknown",

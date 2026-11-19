@@ -1,0 +1,146 @@
+// "Our Work" section (layouts/partials/work.html): the live demo as the
+// featured card, then a 2x2 grid of project tiles (images or looping video).
+
+.work {
+  position: relative;
+  padding: 100px 0;
+
+  @include mobile {
+    padding: 60px 0;
+  }
+
+  .section-title p {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+}
+
+.work-byline {
+  margin-top: 10px !important;
+  font-size: 14px;
+  font-style: italic;
+
+  a {
+    color: inherit;
+    border-bottom: 1px dotted currentColor;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+// Old #gallery / #pricing links land at the top of the section, clear of the
+// fixed header.
+.work-anchor {
+  position: absolute;
+  top: -80px;
+}
+
+.work-featured {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 48px;
+  padding: 24px;
+  border-radius: 16px;
+  background: $bg-color;
+  border: 1px solid rgba($primary-color, 0.12);
+  scroll-margin-top: 90px;
+
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  &__media {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 14px 34px rgba(14, 30, 60, 0.18);
+
+    img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+    }
+  }
+
+  &__body {
+    padding-right: 12px;
+
+    h3 {
+      margin: 6px 0 14px;
+      color: $text-color-dark;
+      font-size: 28px;
+      line-height: 1.3;
+    }
+
+    p {
+      margin-bottom: 22px;
+      font-size: 16px;
+    }
+  }
+}
+
+.work-kicker {
+  color: $primary-color;
+  font-family: $primary-font;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.work-featured .work-note {
+  margin: 12px 0 0;
+  font-size: 13px;
+  opacity: 0.75;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}
+
+.work-item {
+  margin: 0;
+
+  &__media {
+    border-radius: 12px;
+    overflow: hidden;
+    background: #1d2433;
+    box-shadow: 0 12px 30px rgba(14, 30, 60, 0.15);
+
+    img,
+    video {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      object-position: center top;
+    }
+  }
+
+  figcaption {
+    padding: 16px 4px 0;
+
+    h4 {
+      margin-bottom: 6px;
+      color: $text-color-dark;
+      font-size: 20px;
+    }
+
+    p {
+      margin: 0;
+      font-size: 15px;
+    }
+  }
+}

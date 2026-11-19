@@ -11,29 +11,25 @@ pagination.page = 6
 
   # Main Menu
   [[menu.Main]]
-  name = "Gallery"
-  url= "#gallery"
+  name = "Work"
+  url= "#work"
   weight = 1
   [[menu.Main]]
-  name = "Service"
+  name = "Demo"
+  url= "#demo"
+  weight = 2
+  [[menu.Main]]
+  name = "Services"
   url= "#service"
-  weight = 1
+  weight = 3
   [[menu.Main]]
   name = "About"
   url= "/about/"
-  weight = 3
+  weight = 4
   #[[menu.Main]]
   #name = "Blog"
   #url= "#blog"
   #weight = 4
-  [[menu.Main]]
-  name = "Products"
-  url= "#pricing"
-  weight = 5
-  [[menu.Main]]
-  name = "Demos"
-  url= "#demo"
-  weight = 6
   [[menu.Main]]
   name = "FAQ"
   url= "#faq"
@@ -62,7 +58,7 @@ pagination.page = 6
   #googleAnalytics = "G-6JF7TEF9HP"
   logo = "images/geosim_logo.png"
   footerlogo = "images/geosim_logo.png"
-  footerDescription = "All Rights Reserved ©2025"
+  footerDescription = "All Rights Reserved"
 
   [params.address]
   address = "1500 N Grant St #5859<br> Denver, CO, 80203, USA"
@@ -90,6 +86,10 @@ pagination.page = 6
   #icon = "ti-dribbble"
   #url = "https://dribbble.com/"
   #weight = 3
+  [[params.social]]
+  icon = "ti-linkedin"
+  url = "https://www.linkedin.com/company/geosim3d/"
+  weight = 3
   [[params.social]]
   icon = "ti-youtube"
   url = "https://www.youtube.com/@geosim3d"

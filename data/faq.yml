@@ -1,29 +1,33 @@
 enable: true
 title: "Frequently Asked Questions"
 faq:
+  - question: "Can you build something like the demo for our yard?"
+    answer: >
+            Yes, that's the point of it. The demo runs on the same engine we use for
+            client work; yours is built from your own layout, switches, and equipment,
+            with the moves and views your team actually needs.
   - question: "Do I need special computers or VR headsets to use this?"
     answer: >
-            No. Every 3D model we build runs smoothly right inside a standard web 
-            browser. You and your team can access your custom 3D environments 
-            on any standard laptop, tablet, or smartphone without installing extra software.
+            No. Like the demo, everything we build runs in a standard web browser on an
+            ordinary laptop or desktop, with no extra software to install. Lighter
+            versions can also run on tablets and phones.
   - question: "What files or data do I need to provide to get started?"
     answer: >
-            We make this process completely hands-off for you. Depending on your project, 
-            you can simply provide us with a physical address, drone footage, 2D blueprints, 
-            or existing blueprint files. Our team handles 100% of the data preparation and conversion.
+            Whatever you already have. Track plans, CAD drawings, airport layout plans,
+            survey or lidar data, GIS layers, and aerial imagery all work, and a site
+            location is enough to start from public map data. We take care of the data
+            preparation and conversion.
   - question: "How long does it take to build a custom 3D digital replica?"
     answer: >
-            Timeline depends entirely on the size and complexity of your operation. 
-            A single facility or real estate development can typically be completed in 
-            a few weeks, while complex regional transit networks take longer. We provide a 
-            clear timeline during our initial concept call.
+            It depends on the size and complexity of the site. A single yard, depot, or
+            terminal area typically takes a few weeks; a full corridor or regional
+            network takes longer. We give you a timeline once we've seen your data.
   - question: "Can we connect live data or tracking systems to our 3D model?"
     answer: >
-            Yes. We specialize in live operational command centers. We can integrate 
-            your existing GPS trackers, sensor data, or facility inventory feeds directly 
-            into your 3D model so you can watch your operations move in real time.
+            Yes. The trains in the demo are simulated, but in your model we can connect
+            existing GPS, AEI, sensor, or dispatch feeds so vehicles and equipment move
+            in 3D as they do on the ground.
   - question: "How are updates handled if our physical facility changes?"
     answer: >
-            Because we provide an end-to-end service, we don't just build your model and walk 
-            away. We offer ongoing maintenance packages to seamlessly update your 3D 
-            environment whenever your real-world layout, routes, or equipment change.
+            We don't build your model and walk away. As your layout, routes, or equipment
+            change, we update your 3D environment to match.

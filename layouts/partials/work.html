@@ -1,0 +1,59 @@
+{{/* "Our Work": the live demo as the featured product, then project tiles.
+     Data: data/work.yml. The demo link is demoURL in hero.yml. #gallery,
+     #pricing and #demo anchors are kept so old links still land here. */}}
+{{ $url := site.Data.hero.demoURL }}
+{{ with site.Data.work }}
+{{ if .enable }}
+<section class="work" id="work">
+  <span id="gallery" class="work-anchor"></span>
+  <span id="pricing" class="work-anchor"></span>
+  <div class="container">
+    <div class="section-title">
+      <h2>{{ .title }}</h2>
+      {{ with .subtitle }}<p>{{ . }}</p>{{ end }}
+      {{ with .byline }}<p class="work-byline"><a href="{{ "about/" | relURL }}">{{ . }}</a></p>{{ end }}
+    </div>
+
+    {{ with .featured }}
+    <article class="work-featured" id="demo">
+      <div class="work-featured__media">
+        <img src="{{ .image | absURL }}" alt="{{ .alt }}" loading="lazy" decoding="async">
+      </div>
+      <div class="work-featured__body">
+        {{ with .kicker }}<span class="work-kicker">{{ . }}</span>{{ end }}
+        <h3>{{ .title }}</h3>
+        <p>{{ .description }}</p>
+        {{ if $url }}
+        <a href="{{ $url }}" class="btn-demo" data-demo-location="work" target="_blank" rel="noopener">
+          <span class="btn-demo__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="18" height="18"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+          </span>
+          <span class="btn-demo__label">{{ .buttonText | default "Launch the Live Demo" }}</span>
+        </a>
+        {{ with .note }}<p class="work-note">{{ . }}</p>{{ end }}
+        {{ end }}
+      </div>
+    </article>
+    {{ end }}
+
+    <div class="work-grid">
+      {{ range .items }}
+      <figure class="work-item">
+        <div class="work-item__media">
+          {{ if .video }}
+          <video src="{{ .video | absURL }}" poster="{{ .poster | absURL }}" muted loop playsinline autoplay preload="metadata" aria-label="{{ .alt }}"></video>
+          {{ else }}
+          <img src="{{ .image | absURL }}" alt="{{ .alt }}" loading="lazy" decoding="async">
+          {{ end }}
+        </div>
+        <figcaption>
+          <h4>{{ .title }}</h4>
+          <p>{{ .description }}</p>
+        </figcaption>
+      </figure>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
