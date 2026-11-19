@@ -6,6 +6,12 @@ faq:
             Yes, that's the point of it. The demo runs on the same engine we use for
             client work; yours is built from your own layout, switches, and equipment,
             with the moves and views your team actually needs.
+  - question: "Do you work with consultants and contractors?"
+    answer: >
+            Yes. We can work behind the scenes for engineering firms and operators,
+            turning their project or client data into an interactive 3D model or video
+            they can present under their own name. We work from CAD, track plans, GIS,
+            or aerial imagery, and deliver a browser link, video, or stills.
   - question: "Do I need special computers or VR headsets to use this?"
     answer: >
             No. Like the demo, everything we build runs in a standard web browser on an
