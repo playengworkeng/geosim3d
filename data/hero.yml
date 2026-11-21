@@ -5,9 +5,8 @@
 title: "<h1>Rail & Airport Operations,<br>Built in Interactive 3D</h1>"
 enable: true
 subtitle: >
-          We turn your rail networks, airfields, facility layouts, and blueprints 
-          into custom 3D digital replicas and operator training environments. You send
-          the data you already have; we build it, and it runs in an ordinary web browser.
+          Interactive 3D simulations of real-world rail yards, airports, and transit
+          systems, built from site and plan data for operations and training.
 heroBGimg: "images/hero/geosim3d_background.png"
 heroVideo: "https://youtube.com"
 herosVideoDesc: "<span>See <strong>Our Live Simulations</strong> in 30 Seconds</span>"
