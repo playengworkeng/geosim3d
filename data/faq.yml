@@ -23,6 +23,11 @@ faq:
             survey or lidar data, GIS layers, and aerial imagery all work, and a site
             location is enough to start from public map data. We take care of the data
             preparation and conversion.
+  - question: "Is our data kept private?"
+    answer: >
+            Yes. Your drawings and layouts are used only for your project. They're never
+            shown publicly or in our demos without your permission, and we're happy to
+            sign an NDA.
   - question: "How long does it take to build a custom 3D digital replica?"
     answer: >
             It depends on the size and complexity of the site. A single yard, depot, or

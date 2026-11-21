@@ -40,10 +40,10 @@ pagination.page = 6
   weight = 7
 
   # Sitemap Menu
-  #[[menu.sitemap]]
-  #name = "Privacy Policy"
-  #url = "/privacy/"
-  #weight = 1
+  [[menu.sitemap]]
+  name = "Privacy Policy"
+  url = "/privacy/"
+  weight = 1
   #[[menu.sitemap]]
   #name = "Terms"
   #url = "/terms/"
